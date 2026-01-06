@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <div class="navbar">
+
+            <div class="nav_logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav_add border">
+                <p class="nav_first">Deliver to</p>
+                <div class="nav_icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="nav_second">India</p>
+                </div>
+            </div>
+
+            <!-- 🔍 SEARCH BAR -->
+            <div class="nav_search">
+                <select class="select_option" id="categorySelect">
+                    <option value="index.html">All</option>
+                    <option value="clothes.html">Clothes</option>
+                    <option value="oral-care.html">Oral Care</option>
+                    <option value="study.html">Study Materials</option>
+                    <option value="mobiles.html">Mobile Phones</option>
+                    <option value="makeup.html">Makeup Kits</option>
+                    <option value="pets.html">Pets</option>
+                    <option value="kids.html">Kids Study</option>
+                    <option value="ladies.html">Ladies Style</option>
+                </select>
+
+
+                <input class="search_input" placeholder="Search Amazon">
+
+                <div class="search_icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <!-- ✅ SUGGESTION BOX -->
+                <div id="searchSuggestions" class="search_suggestions"></div>
+            </div>
+
+            <!-- 👤 ACCOUNT -->
+            <div class="border">
+                <p class="nav_first">Hello, sign in</p>
+                <p class="nav_second">Account & List</p>
+            </div>
+
+            <!-- 📦 ORDERS -->
+            <div class="border">
+                <p class="nav_first">Return</p>
+                <p class="nav_second">& Orders</p>
+            </div>
+
+            <!-- 🛒 CART -->
+            <a href="cart.html" class="cart">
+                <div class="nav_cart border">
+                    <i class="fa-solid fa-cart-shopping"></i> Cart
+                </div>
+            </a>
+
+        </div>
+    </header>
+
+    <div class="panel">
+        <div><i class="fa-solid fa-bars"></i> All</div>
+        <div class="panel_obs">
+            <span>Today's Deals</span>
+            <span>Customer Service</span>
+            <span>Gift Cards</span>
+            <span>Sell</span>
+        </div>
+        <div class="deals">Product Details</div>
+    </div>
+    <!-- ================= PRODUCT SECTION ================= -->
+    <section class="shop_section">
+        <div class="product_page">
+
+            <div class="product_img_box">
+                <img id="productImg">
+            </div>
+
+            <div class="product_info">
+                <h1 id="productName"></h1>
+                <p class="price" id="productPrice"></p>
+
+
+
+                <ul class="highlights">
+                    <li>✔ Premium Quality</li>
+                    <li>✔ Easy Return Policy</li>
+                    <li>✔ Cash on Delivery Available</li>
+                </ul>
+
+                <div class="btn_group">
+                    <button class="add_cart" id="addToCart">Add to Cart</button>
+                    <button class="buy_now" id="buyNow">Buy Now</button>
+                </div>
+
+                <p id="msg"></p>
+                <div class="why_buy">
+                    <h4>Why Buy From Us?</h4>
+                    <p>✔ 100% Genuine Products</p>
+                    <p>✔ Easy Returns</p>
+                    <p>✔ Secure Payments</p>
+                </div>
+
+                <div class="delivery_box">
+                    <p><strong>🚚Delivery:</strong> Free delivery by Tomorrow</p>
+                    <p><strong>🛡️Seller:</strong> Amazon Verified</p>
+                    <p><strong> 🔁Return:</strong> 7 Days Replacement</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer_1">Back to Top</div>
+
+        <div class="footer_2">
+            <ul>
+                <h3>Get to Know Us</h3>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>About Amazon</p>
+            </ul>
+            <ul>
+                <h3>Make Money with Us</h3>
+                <p>Sell on Amazon</p>
+                <p>Affiliate</p>
+            </ul>
+            <ul>
+                <h3>Help</h3>
+                <p>Your Account</p>
+                <p>Orders</p>
+            </ul>
+            <ul>
+                <h3>Payment</h3>
+                <p>Amazon Pay</p>
+            </ul>
+        </div>
+
+        <div class="footer_4">
+            © 1996-2024 Amazon Clone
+        </div>
+    </footer>
+    <script src="js/product.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

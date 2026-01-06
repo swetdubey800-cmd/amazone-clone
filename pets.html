@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="nav_logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav_add border">
+                <p class="nav_first">Deliver to</p>
+                <div class="nav_icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="nav_second">India</p>
+                </div>
+            </div>
+
+            <div class="nav_search">
+                <select class="select_option" id="categorySelect">
+                    <option value="index.html">All</option>
+                    <option value="clothes.html">Clothes</option>
+                    <option value="oral-care.html">Oral Care</option>
+                    <option value="study.html">Study Materials</option>
+                    <option value="mobiles.html">Mobile Phones</option>
+                    <option value="makeup.html">Makeup Kits</option>
+                    <option value="pets.html">Pets</option>
+                    <option value="kids.html">Kids Study</option>
+                    <option value="ladies.html">Ladies Style</option>
+                </select>
+
+                <input class="search_input" placeholder="Search Amazon">
+                <div class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div class="search_suggestions" id="searchSuggestions"></div>
+
+            <div class="border">
+                <p class="nav_first">Hello, sign in</p>
+                <p class="nav_second">Account & List</p>
+            </div>
+
+            <div class="border">
+                <p class="nav_first">Return</p>
+                <p class="nav_second">& Orders</p>
+            </div>
+            <a href="cart.html" class="cart">
+                <div class="nav_cart border">
+                    <i class="fa-solid fa-cart-shopping"></i> Cart
+                </div>
+        </div>
+        </a>
+
+        <div class="panel">
+            <div><i class="fa-solid fa-bars"></i> All</div>
+            <div class="panel_obs">
+                <span>Today's Deals</span>
+                <span>Customer Service</span>
+                <span>Gift Cards</span>
+                <span>Sell</span>
+            </div>
+            <div class="deals">Everything for your Pets</div>
+        </div>
+    </header>
+
+    <div class="hero_section category_hero" style="background-image:url('images/pet/he.avif')">
+        <h1>Pet Supplies</h1>
+    </div>
+
+    <section class="shop_section">
+        <div class="product_grid">
+
+            <a
+                href="product.html?name=Dog Food&price=899&img=images/pet/dog f.jpeg&desc=Nutritious dog food for healthy growth">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/dog f.jpeg')"></div>
+                    <h3>Dog Food</h3>
+                    <p class="product_desc">Nutritious dog food for healthy growth</p>
+                    <p>₹899</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Cat Food&price=799&img=images/pet/cat f.jpeg&desc=Balanced cat food for daily nutrition">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/cat f.jpeg')"></div>
+                    <h3>Cat Food</h3>
+                    <p class="product_desc">Balanced cat food for daily nutrition</p>
+                    <p>₹799</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pet Toy&price=299&img=images/pet/toy.jpeg&desc=Fun and durable toy for pets playtime">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/toy.jpeg')"></div>
+                    <h3>Pet Toy</h3>
+                    <p class="product_desc">Fun and durable toy for pets playtime</p>
+                    <p>₹299</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Dog Collar&price=199&img=images/pet/collar.jpeg&desc=Adjustable dog collar for comfort and safety">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/collar.jpeg')"></div>
+                    <h3>Dog Collar</h3>
+                    <p class="product_desc">Adjustable dog collar for comfort and safety</p>
+                    <p>₹199</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pet Shampoo&price=349&img=images/pet/shampoo.jpeg&desc=Gentle pet shampoo for healthy fur">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/shampoo.jpeg')"></div>
+                    <h3>Pet Shampoo</h3>
+                    <p class="product_desc">Gentle pet shampoo for healthy fur</p>
+                    <p>₹349</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pet Bed&price=1299&img=images/pet/bed.jpeg&desc=Soft and comfortable pet bed for rest">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/bed.jpeg')"></div>
+                    <h3>Pet Bed</h3>
+                    <p class="product_desc">Soft and comfortable pet bed for rest</p>
+                    <p>₹1,299</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pet Bowl&price=249&img=images/pet/bowl.jpeg&desc=Durable pet bowl for food and water">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/bowl.jpeg')"></div>
+                    <h3>Pet Bowl</h3>
+                    <p class="product_desc">Durable pet bowl for food and water</p>
+                    <p>₹249</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pet Leash&price=399&img=images/pet/leash.jpeg&desc=Strong leash for safe pet walking">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/leash.jpeg')"></div>
+                    <h3>Pet Leash</h3>
+                    <p class="product_desc">Strong leash for safe pet walking</p>
+                    <p>₹399</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pet Grooming Kit&price=999&img=images/pet/groom.jpeg&desc=Complete grooming kit for pets care">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/groom.jpeg')"></div>
+                    <h3>Pet Grooming Kit</h3>
+                    <p class="product_desc">Complete grooming kit for pets care</p>
+                    <p>₹999</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pet Training Pads&price=699&img=images/pet/pads.jpeg&desc=Absorbent training pads for pets hygiene">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/pads.jpeg')"></div>
+                    <h3>Pet Training Pads</h3>
+                    <p class="product_desc">Absorbent training pads for pets hygiene</p>
+                    <p>₹699</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pet Carrier Bag&price=1599&img=images/pet/carry bag.jpeg&desc=Comfortable carrier bag for pet travel">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/carry bag.jpeg')"></div>
+                    <h3>Pet Carrier Bag</h3>
+                    <p class="product_desc">Comfortable carrier bag for pet travel</p>
+                    <p>₹1,599</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pet Health Supplement&price=499&img=images/pet/suppliment.jpeg&desc=Health supplement for pets immunity and energy">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/pet/suppliment.jpeg')"></div>
+                    <h3>Pet Health Supplement</h3>
+                    <p class="product_desc">Health supplement for pets immunity and energy</p>
+                    <p>₹499</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_1">Back to Top</div>
+        <div class="footer_2">
+            <ul>
+                <h3>Get to Know Us</h3>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>About Amazon</p>
+            </ul>
+            <ul>
+                <h3>Make Money with Us</h3>
+                <p>Sell on Amazon</p>
+                <p>Affiliate</p>
+            </ul>
+            <ul>
+                <h3>Help</h3>
+                <p>Your Account</p>
+                <p>Orders</p>
+            </ul>
+            <ul>
+                <h3>Payment</h3>
+                <p>Amazon Pay</p>
+            </ul>
+        </div>
+        <div class="footer_4">© 1996-2024 Amazon Clone</div>
+    </footer>
+    <script src="js/product.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

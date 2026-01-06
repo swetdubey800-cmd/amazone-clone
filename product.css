@@ -1,0 +1,205 @@
+.product_page {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 24px;
+    display: flex;
+    gap: 40px;
+    border-radius: 6px;
+
+}
+
+
+
+
+.product_img_box img {
+    width: 420px;
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.product_info {
+    flex: 1;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.product_info h1 {
+    font-size: 24px;
+    color: #0f1111;
+    margin-bottom: 6px;
+}
+
+#productPrice {
+
+    color: #b12704;
+    margin-bottom: 10px;
+    font-weight: 600px;
+    font-size: 22px;
+
+}
+
+
+
+.why_buy {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+.highlights {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 18px;
+}
+
+.highlights li {
+    font-size: 14px;
+    color: #0f1111;
+    margin-bottom: 6px;
+}
+
+
+
+.btn_group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+
+}
+
+.add_cart {
+    background-color: #ffd814;
+    color: #0f1111;
+    border: none;
+    padding: 12px 18px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.add_cart:hover {
+    background-color: #f7ca00;
+}
+
+.buy_now {
+    background-color: #ffa41c;
+    color: #0f1111;
+    border: none;
+    padding: 12px 18px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.buy_now:hover {
+    background-color: #f08804;
+}
+
+#msg {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ================================================= */
+/* ================= TABLET VIEW =================== */
+/* ================================================= */
+
+@media (max-width: 900px) {
+
+    .product_page {
+        gap: 24px;
+        padding: 20px;
+    }
+
+    .product_img_box img {
+        width: 340px;
+    }
+
+    .product_info h1 {
+        font-size: 22px;
+    }
+
+    .product_price {
+        font-size: 20px;
+    }
+}
+
+/* ================================================= */
+/* ================= MOBILE VIEW =================== */
+/* ================================================= */
+
+@media (max-width: 600px) {
+
+    .product_page {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        padding: 16px;
+    }
+
+    .product_img_box img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .product_info {
+        width: 100%;
+    }
+
+    .product_info h1 {
+        font-size: 20px;
+    }
+
+    .product_price {
+        font-size: 18px;
+    }
+
+    .product_desc {
+        font-size: 13px;
+    }
+
+    .btn_group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .add_cart,
+    .buy_now {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .highlights li {
+        font-size: 13px;
+    }
+}
+
+/* ================================================= */
+/* ============== EXTRA SMALL DEVICES =============== */
+/* ================================================= */
+
+@media (max-width: 360px) {
+
+    .product_info h1 {
+        font-size: 18px;
+    }
+
+    .product_price {
+        font-size: 17px;
+    }
+
+    .product_desc {
+        font-size: 12.5px;
+    }
+}

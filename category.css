@@ -1,0 +1,337 @@
+/* ================= CATEGORY HERO ================= */
+
+.category_hero {
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.category_hero h1 {
+    background: white;
+    color: #111;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+/* ================= PRODUCT GRID ================= */
+
+.product_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product_card {
+    background: white;
+    padding: 12px;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product_card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.product_img {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.product_card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0f1111;
+    margin-bottom: 4px;
+}
+
+.product_card p {
+    font-size: 13px;
+    color: #565959;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ================= BUTTON GROUP ================= */
+
+.btn_group {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+
+}
+
+.btn_group button {
+    flex: 1;
+    padding: 7px 6px;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+/* ADD TO CART */
+.add_cart {
+    background-color: #ffd814;
+    color: #0f1111;
+}
+
+.add_cart:hover {
+    background-color: #f7ca00;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-1px);
+}
+
+/* BUY NOW */
+.buy_now {
+    background-color: #ffa41c;
+    color: #0f1111;
+}
+
+.buy_now:hover {
+    background-color: #fa8900;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-1px);
+}
+
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 480px) {
+
+    .category_hero {
+        height: 160px;
+    }
+
+    .category_hero h1 {
+        font-size: 16px;
+        padding: 8px 14px;
+        margin-bottom: 14px;
+    }
+
+    .product_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .product_card {
+        padding: 8px;
+    }
+
+    .product_img {
+        height: 120px;
+        margin-bottom: 6px;
+    }
+
+    .product_card h3 {
+        font-size: 13px;
+    }
+
+    .product_card p {
+        font-size: 12px;
+    }
+
+    .btn_group button {
+        font-size: 12px;
+        padding: 6px 4px;
+
+    }
+}
+
+
+/* ================= EXTRA SMALL DEVICES ================= */
+
+@media (max-width: 360px) {
+
+    .category_hero h1 {
+        font-size: 14px;
+    }
+
+    .product_img {
+        height: 110px;
+    }
+}
+
+/* ================= CATEGORY HERO ================= */
+
+.category_hero {
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.category_hero h1 {
+    background: white;
+    color: #111;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+/* ================= PRODUCT GRID ================= */
+
+.product_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product_card {
+    background: white;
+    padding: 12px;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product_card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.product_img {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.product_card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0f1111;
+    margin-bottom: 4px;
+}
+
+.product_card p {
+    font-size: 13px;
+    color: #565959;
+}
+
+
+/* ================= BUTTON GROUP ================= */
+
+.btn_group {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.btn_group button {
+    flex: 1;
+    padding: 7px 6px;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+/* ADD TO CART */
+.add_cart {
+    background-color: #ffd814;
+    color: #0f1111;
+}
+
+.add_cart:hover {
+    background-color: #f7ca00;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-1px);
+}
+
+/* BUY NOW */
+.buy_now {
+    background-color: #ffa41c;
+    color: #0f1111;
+}
+
+.buy_now:hover {
+    background-color: #fa8900;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-1px);
+}
+
+.delivery_box {
+    margin-top: 20px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fafafa;
+    font-size: 14px;
+}
+
+
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 480px) {
+
+    .category_hero {
+        height: 160px;
+    }
+
+    .category_hero h1 {
+        font-size: 16px;
+        padding: 8px 14px;
+        margin-bottom: 14px;
+    }
+
+    .product_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .product_card {
+        padding: 8px;
+    }
+
+    .product_img {
+        height: 120px;
+        margin-bottom: 6px;
+    }
+
+    .product_card h3 {
+        font-size: 13px;
+    }
+
+    .product_card p {
+        font-size: 12px;
+    }
+
+    .btn_group button {
+        font-size: 12px;
+        padding: 6px 4px;
+    }
+}
+
+
+/* ================= EXTRA SMALL DEVICES ================= */
+
+@media (max-width: 360px) {
+
+    .category_hero h1 {
+        font-size: 14px;
+    }
+
+    .product_img {
+        height: 110px;
+    }
+}

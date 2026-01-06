@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Materials</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="nav_logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav_add border">
+                <p class="nav_first">Deliver to</p>
+                <div class="nav_icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="nav_second">India</p>
+                </div>
+            </div>
+
+            <div class="nav_search">
+                <select class="select_option" id="categorySelect">
+                    <option value="index.html">All</option>
+                    <option value="clothes.html">Clothes</option>
+                    <option value="oral-care.html">Oral Care</option>
+                    <option value="study.html">Study Materials</option>
+                    <option value="mobiles.html">Mobile Phones</option>
+                    <option value="makeup.html">Makeup Kits</option>
+                    <option value="pets.html">Pets</option>
+                    <option value="kids.html">Kids Study</option>
+                    <option value="ladies.html">Ladies Style</option>
+                </select>
+
+                <input class="search_input" placeholder="Search Amazon">
+                <div class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div class="search_suggestions" id="searchSuggestions"></div>
+
+            <div class="border">
+                <p class="nav_first">Hello, sign in</p>
+                <p class="nav_second">Account & List</p>
+            </div>
+
+            <div class="border">
+                <p class="nav_first">Return</p>
+                <p class="nav_second">& Orders</p>
+            </div>
+
+            <a href="cart.html" class="cart">
+                <div class="nav_cart border">
+                    <i class="fa-solid fa-cart-shopping"></i> Cart
+                </div>
+        </div>
+        </a>
+
+        <div class="panel">
+            <div><i class="fa-solid fa-bars"></i> All</div>
+            <div class="panel_obs">
+                <span>Today's Deals</span>
+                <span>Customer Service</span>
+                <span>Gift Cards</span>
+                <span>Sell</span>
+            </div>
+            <div class="deals">Study Materials Store</div>
+        </div>
+    </header>
+
+    <div class="hero_section category_hero" style="background-image:url('images/study/hero1.jpeg')">
+        <h1>Study Materials</h1>
+    </div>
+
+    <section class="shop_section">
+        <div class="product_grid">
+
+            <a
+                href="product.html?name=Notebook&price=99&img=images/study/book.jpg&desc=High quality notebook for daily study use">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/book.jpg')"></div>
+                    <h3>Notebook</h3>
+                    <p class="product_desc">High quality notebook for daily study use</p>
+                    <p>₹99</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Pen Set&price=149&img=images/study/pen.jpg&desc=Smooth writing pen set for exams and notes">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/pen.jpg')"></div>
+                    <h3>Pen Set</h3>
+                    <p class="product_desc">Smooth writing pen set for exams and notes</p>
+                    <p>₹149</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Geometry Box&price=249&img=images/study/box.png&desc=Complete geometry box for school students">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/box.png')"></div>
+                    <h3>Geometry Box</h3>
+                    <p class="product_desc">Complete geometry box for school students</p>
+                    <p>₹249</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Calculator&price=699&img=images/study/calc.jpg&desc=Scientific calculator for exams and practice">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/calc.jpg')"></div>
+                    <h3>Calculator</h3>
+                    <p class="product_desc">Scientific calculator for exams and practice</p>
+                    <p>₹699</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=School Bag&price=999&img=images/study/bag.jpg&desc=Spacious and durable school bag">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/bag.jpg')"></div>
+                    <h3>School Bag</h3>
+                    <p class="product_desc">Spacious and durable school bag</p>
+                    <p>₹999</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Exam Guide Book&price=399&img=images/study/book2.jpg&desc=Helpful exam guide book for preparation">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/book2.jpg')"></div>
+                    <h3>Exam Guide Book</h3>
+                    <p class="product_desc">Helpful exam guide book for preparation</p>
+                    <p>₹399</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Sticky Notes&price=129&img=images/study/note.webp&desc=Colorful sticky notes for reminders">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/note.webp')"></div>
+                    <h3>Sticky Notes</h3>
+                    <p class="product_desc">Colorful sticky notes for reminders</p>
+                    <p>₹129</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Highlighter&price=99&img=images/study/high ligter.jpg&desc=Bright highlighter for important points">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/high ligter.jpg')"></div>
+                    <h3>Highlighter</h3>
+                    <p class="product_desc">Bright highlighter for important points</p>
+                    <p>₹99</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=White Board&price=799&img=images/study/board.jpg&desc=White board for study and teaching">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/board.jpg')"></div>
+                    <h3>White Board</h3>
+                    <p class="product_desc">White board for study and teaching</p>
+                    <p>₹799</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Marker Set&price=199&img=images/study/marker.jpg&desc=Smooth marker set for board writing">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/marker.jpg')"></div>
+                    <h3>Marker Set</h3>
+                    <p class="product_desc">Smooth marker set for board writing</p>
+                    <p>₹199</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Study Lamp&price=1199&img=images/study/lamp.webp&desc=LED study lamp for eye comfort">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/lamp.webp')"></div>
+                    <h3>Study Lamp</h3>
+                    <p class="product_desc">LED study lamp for eye comfort</p>
+                    <p>₹1,199</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a
+                href="product.html?name=Clipboard&price=149&img=images/study/clip.jpg&desc=Strong clipboard for holding papers">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/study/clip.jpg')"></div>
+                    <h3>Clipboard</h3>
+                    <p class="product_desc">Strong clipboard for holding papers</p>
+                    <p>₹149</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_1">Back to Top</div>
+        <div class="footer_2">
+            <ul>
+                <h3>Get to Know Us</h3>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>About Amazon</p>
+            </ul>
+            <ul>
+                <h3>Make Money with Us</h3>
+                <p>Sell on Amazon</p>
+                <p>Affiliate</p>
+            </ul>
+            <ul>
+                <h3>Help</h3>
+                <p>Your Account</p>
+                <p>Orders</p>
+            </ul>
+            <ul>
+                <h3>Payment</h3>
+                <p>Amazon Pay</p>
+            </ul>
+        </div>
+        <div class="footer_4">© 1996-2024 Amazon Clone</div>
+    </footer>
+    <script src="js/product.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

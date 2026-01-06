@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="nav_logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav_add border">
+                <p class="nav_first">Deliver to</p>
+                <div class="nav_icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="nav_second">India</p>
+                </div>
+            </div>
+
+            <div class="nav_search">
+                <select class="select_option" id="categorySelect">
+                    <option value="index.html">All</option>
+                    <option value="clothes.html">Clothes</option>
+                    <option value="oral-care.html">Oral Care</option>
+                    <option value="study.html">Study Materials</option>
+                    <option value="mobiles.html">Mobile Phones</option>
+                    <option value="makeup.html">Makeup Kits</option>
+                    <option value="pets.html">Pets</option>
+                    <option value="kids.html">Kids Study</option>
+                    <option value="ladies.html">Ladies Style</option>
+                </select>
+
+                <input class="search_input" placeholder="Search Amazon">
+                <div class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div class="search_suggestions" id="searchSuggestions"></div>
+
+            <div class="border">
+                <p class="nav_first">Hello, sign in</p>
+                <p class="nav_second">Account & List</p>
+            </div>
+
+            <div class="border">
+                <p class="nav_first">Return</p>
+                <p class="nav_second">& Orders</p>
+            </div>
+
+            <a href="cart.html" class="cart">
+                <div class="nav_cart border">
+                    <i class="fa-solid fa-cart-shopping"></i> Cart
+                </div>
+        </div>
+        </a>
+
+        <div class="panel">
+            <div><i class="fa-solid fa-bars"></i> All</div>
+            <div class="panel_obs">
+                <span>Today's Deals</span>
+                <span>Customer Service</span>
+                <span>Gift Cards</span>
+                <span>Sell</span>
+            </div>
+            <div class="deals">Latest Fashion Trends</div>
+        </div>
+    </header>
+
+    <div class="hero_section category_hero" style="background-image:url('images/Clothes/hro.png')"></div>
+
+    <section class="shop_section">
+        <div class="product_grid">
+
+            <a href="product.html?name=Men Shirt&price=899&img=images/Clothes/shirt.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/shirt.jpeg')"></div>
+                    <h3>Men Shirt</h3>
+                    <p class="product_desc">Premium cotton shirt, perfect for office & casual wear</p>
+                    <p>₹899</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=T-Shirt&price=599&img=images/Clothes/t-shirt.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/t-shirt.jpeg')"></div>
+                    <h3>T-Shirt</h3>
+                    <p class="product_desc">Soft breathable fabric, ideal for daily comfort</p>
+                    <p>₹599</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Jeans&price=1299&img=images/Clothes/jinsh.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/jinsh.jpeg')"></div>
+                    <h3>Jeans</h3>
+                    <p class="product_desc">Durable denim jeans with modern slim fit</p>
+                    <p>₹1,299</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Jacket&price=1999&img=images/Clothes/jacket.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/jacket.jpeg')"></div>
+                    <h3>Jacket</h3>
+                    <p class="product_desc">Stylish winter jacket with warm inner lining</p>
+                    <p>₹1,999</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Kurti&price=899&img=images/Clothes/kurti.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/kurti.jpeg')"></div>
+                    <h3>Kurti</h3>
+                    <p class="product_desc">Elegant ethnic kurti for festive & daily wear</p>
+                    <p>₹899</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Saree&price=1599&img=images/Clothes/saree.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/saree.jpeg')"></div>
+                    <h3>Saree</h3>
+                    <p class="product_desc">Graceful saree with rich fabric & elegant design</p>
+                    <p>₹1,599</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Track Pant&price=699&img=images/Clothes/trackpaint.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/trackpaint.jpeg')"></div>
+                    <h3>Track Pant</h3>
+                    <p class="product_desc">Comfortable stretch fabric for gym & daily use</p>
+                    <p>₹699</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Hoodie&price=1499&img=images/Clothes/hoodie.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/hoodie.jpeg')"></div>
+                    <h3>Hoodie</h3>
+                    <p class="product_desc">Warm stylish hoodie for winter casual look</p>
+                    <p>₹1,499</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Shorts&price=499&img=images/Clothes/shorts.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/shorts.jpeg')"></div>
+                    <h3>Shorts</h3>
+                    <p class="product_desc">Lightweight shorts for summer comfort</p>
+                    <p>₹499</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Formal Pants&price=1399&img=images/Clothes/paint.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/paint.jpeg')"></div>
+                    <h3>Formal Pants</h3>
+                    <p class="product_desc">Professional formal pants with perfect fitting</p>
+                    <p>₹1,399</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Blazer&price=3499&img=images/Clothes/court.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/court.jpeg')"></div>
+                    <h3>Blazer</h3>
+                    <p class="product_desc">Premium blazer for meetings & special occasions</p>
+                    <p>₹3,499</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+            <a href="product.html?name=Night Wear&price=999&img=images/Clothes/night.jpeg">
+                <div class="product_card">
+                    <div class="product_img" style="background-image:url('images/Clothes/night.jpeg')"></div>
+                    <h3>Night Wear</h3>
+                    <p class="product_desc">Soft night wear set for peaceful sleep</p>
+                    <p>₹999</p>
+                    <div class="btn_group"><button class="add_cart">Add to Cart</button><button class="buy_now">Buy
+                            Now</button></div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_1">Back to Top</div>
+        <div class="footer_2">
+            <ul>
+                <h3>Get to Know Us</h3>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>About Amazon</p>
+            </ul>
+            <ul>
+                <h3>Make Money with Us</h3>
+                <p>Sell on Amazon</p>
+                <p>Affiliate</p>
+            </ul>
+            <ul>
+                <h3>Help</h3>
+                <p>Your Account</p>
+                <p>Orders</p>
+            </ul>
+            <ul>
+                <h3>Payment</h3>
+                <p>Amazon Pay</p>
+            </ul>
+        </div>
+        <div class="footer_4">© 1996-2024 Amazon Clone</div>
+    </footer>
+    <script src="js/product.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
